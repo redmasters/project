@@ -1,16 +1,13 @@
 .container {
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-left: min(25rem, 10%);
+    margin-top: 2.3rem;
+    margin-left: min(50rem, 13%);
+    margin-right: min(63rem, 23%);
 
 }
 
 nav {
     display: flex;
-}
-
-nav .menu {
-    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -19,16 +16,20 @@ nav .menu {
     color: var(--green)
 }
 
-h1, h2, h3 {
-    font-family: 'DM Serif Display', serif;
-    color: var(--black);
 
+.menu, #subscribe{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--black)
+}
+.menu li {
+    padding: 2rem ;
 }
 
-h1 {
-    font-size: 5.8rem;
-}
+nav .menu li {
+    margin: 0;
+    list-style: none;
+    display: inline;
 
-h2 {
-    font-size: 4.8rem;
 }

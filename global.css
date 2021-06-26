@@ -10,7 +10,7 @@ html {
     --black: #181b31;
     --white: #f6fbfa;
     --green: #40af92;
-    --gray-light: #646b77;
+    --gray-light: #808291;
 
     /* User Agent */
     font-size: 62.5%;
@@ -20,3 +20,23 @@ body {
     background: var(--white);
 }
 
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    color: var(--black);
+
+}
+
+h1 {
+    font-size: 5.8rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--gray-light)
+}
