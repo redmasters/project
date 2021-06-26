@@ -1,7 +1,7 @@
 .container {
     margin-top: 2.3rem;
-    margin-left: min(50rem, 13%);
-    margin-right: min(63rem, 23%);
+    margin-left: min(50rem, 23%);
+    margin-right: min(50rem, 23%);
 
 }
 
@@ -32,4 +32,12 @@ nav .menu li {
     list-style: none;
     display: inline;
 
+}
+
+#subscribe {
+    margin-right: 60%;
+}
+#subscribe h1 {
+    line-height: 6.5rem;
+    padding-bottom: 1.5rem;
 }
