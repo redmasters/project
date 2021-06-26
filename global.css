@@ -40,3 +40,29 @@ p {
     font-size: 1.5rem;
     color: var(--gray-light)
 }
+
+input {
+    position: absolute;
+    border-radius: 18rem;
+    box-shadow: 10px 15px 22px -12px var(--gray-light);
+    padding: 2rem;
+    width: min(41rem, 30%);
+    outline: none;
+
+}
+.button {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: var(--green);
+    color: var(--white);
+
+    border-radius: 3rem;
+    padding: 2rem;
+
+}
+
+.button {
+    position: relative;
+    left: min(25.3rem, 90%);
+}

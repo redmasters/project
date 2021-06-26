@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nanum+Gothic:wght@400;700&family=Secular+One&display=swap" rel="stylesheet"> 
     
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="style.css">
@@ -31,7 +33,9 @@
                         <li>Blog</li>
                         <li>Contact</li>
                         <li>
-                            <button>GET STARTED</button>
+                            <div class="button">
+                                GET STARTED
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -43,7 +47,15 @@
             <div id="subscribe">
                 <h1>Your roadmap to product management</h1>
                 <p>Trekt is a product education plattaform. Trekt aims to empower individuals to become Product Managers.</p>
-                <input type="text" placeholder="Your email address"><button>SUBSCRIBE</button>
+                <form action="POST">
+                    <input 
+                    type="text" 
+                    placeholder="Your email address"
+                    />
+                    <div class="button">
+                        SUBSCRIBE
+                    </div>
+                </form>
             </div>
             
             <section>
