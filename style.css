@@ -17,10 +17,10 @@ nav {
 }
 
 
-.menu, #subscribe{
-    font-family: Montserrat;
+.menu, #subscribe {
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 700;
     color: var(--black)
 }
 .menu li {
