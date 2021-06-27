@@ -24,6 +24,10 @@ body {
     background: var(--white);
 }
 
+a:link {
+    color:none;
+}
+
 h1, h2, h3 {
     font-family: 'DM Serif Display', serif;
     color: var(--black);

@@ -72,3 +72,22 @@ nav .menu li {
 .skill {
     width: 30%;
 }
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+.arrows {
+    display: inline;
+}
+
+.arrow-left, .arrow-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    color: var(--white) ;
+    width: 4.5rem;
+    height: 4.5rem;
+    clip-path: circle();
+}
