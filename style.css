@@ -41,3 +41,34 @@ nav .menu li {
     line-height: 6.5rem;
     padding-bottom: 1.5rem;
 }
+
+.content {
+    margin-top: 25rem;
+}
+
+.offer{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+.green > p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--green);
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+}
+
+.skill {
+    width: 30%;
+}

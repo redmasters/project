@@ -17,6 +17,10 @@ html {
 }
 
 body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--gray-light);
     background: var(--white);
 }
 
@@ -42,15 +46,14 @@ p {
 }
 
 input {
-    position: absolute;
     border-radius: 18rem;
     box-shadow: 10px 15px 22px -12px var(--gray-light);
     padding: 2rem;
-    width: min(41rem, 30%);
+    width: 25rem;
     outline: none;
 
 }
-.button {
+button {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
@@ -62,7 +65,6 @@ input {
 
 }
 
-.button {
-    position: relative;
+button {
     left: min(25.3rem, 90%);
 }
