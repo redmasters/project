@@ -4,4 +4,6 @@
 ## Tecnologias:
 - HTML;
 - CSS;
-- 
+
+## Layout
+![](https://raw.githubusercontent.com/redmasters/project/main/design_site.png)
