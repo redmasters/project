@@ -36,6 +36,7 @@ nav .menu li {
 
 #subscribe {
     margin-right: 60%;
+    margin-bottom: 25rem;
 }
 #subscribe h1 {
     line-height: 95%;
@@ -43,7 +44,7 @@ nav .menu li {
 }
 
 .content {
-    margin-top: 25rem;
+    /* margin-top: 25rem; */
 }
 
 .offer{
@@ -98,6 +99,7 @@ nav .menu li {
 .cards {
     display: flex;
     width: 100%;
+    margin-bottom: 25rem;
 }
 
 .card {
@@ -117,4 +119,35 @@ nav .menu li {
 }
 
 .card > a {
+}
+
+.benefits {
+    grid-area: benefits;
+}
+
+.benefits {
+    margin-bottom: 25rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 1fr;
+    
+    grid-template-areas: 
+    'benefits benefits'
+    'left right';
+}
+
+#bg {
+    grid-area: left;
+    background: url();
+}
+
+.benefits {
+    grid-area: right;
+    display: flex;
+    align-items: center;
+}
+
+.benefits li {
+    font-family: 'Nanun Gothic', sans-serif;
+    font-weight: 500;
 }
